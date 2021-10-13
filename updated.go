@@ -17,7 +17,7 @@ type User struct {
 	fName string
 	trackingNumber string
 	homePhone string
-    multi1 string
+    	multi1 string
 }
 
 type Config struct{
