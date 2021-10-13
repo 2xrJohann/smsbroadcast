@@ -1,4 +1,12 @@
 # smsbroadcast
+
+### Latest update
+I rewrote as update.go because we actually have to use this, the function signatures were so long and so many params
+were getting passed round it was awful. Anyway this is a lot cleaner and all my colleagues have to do is produce a
+spreadsheet (which our CRM does for us) to use it.
+
+
+### NOT so latest update
 work sms broadcast program broke, bashed something up in go while we investigate to continue operations as normal
 
 we have a CRM released in 1974 and a plugin for it written in house to make reqs to an sms broadcast api,
